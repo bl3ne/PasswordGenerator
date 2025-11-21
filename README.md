@@ -68,9 +68,9 @@ If there is no valid password yet, the app shows an alert instead of copying.
 
 If you want to contribute or suggest improvements: 
 
-1. Fork this repository. [web:21][web:39]  
-2. Create a feature branch. [web:21][web:31]  
-3. Commit and push your changes. [web:21][web:36]  
+1. Fork this repository. 
+2. Create a feature branch. 
+3. Commit and push your changes. 
 4. Open a Pull Request describing what you changed. 
 
 ## License
