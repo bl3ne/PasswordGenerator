@@ -1,3 +1,5 @@
+<img width="933" height="661" alt="{D6C1DE02-9AF8-40FF-AA9B-1A652F70E065}" src="https://github.com/user-attachments/assets/84f43973-9dad-44e8-8ae2-8bd6d9373c28" />
+
 # PasswordGenerator
 
 A small .NET MAUI app that generates random passwords with a custom length and lets you copy them to the clipboard with a single click. 
