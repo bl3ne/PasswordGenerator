@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PasswordGen.MainPage">
+
+    <ScrollView BackgroundColor="#e0e0e0">
+        <VerticalStackLayout
+        Padding="30,40"
+        Spacing="28">
+
+            <!-- RAW HEADER -->
+            <Label
+            Text="/// TOOL: PASSWORD_GENERATOR"
+            FontSize="12"
+            FontAttributes="Bold"
+            TextColor="Black"
+            FontFamily="Courier New" />
+
+            <BoxView
+            HeightRequest="3"
+            Color="Black"
+            HorizontalOptions="Fill" />
+
+            <!-- MAIN BLOCK WITH BRUTALIST SHADOW -->
+            <Grid>
+
+                <!-- Hard shadow block -->
+                <Frame
+                BackgroundColor="Black"
+                CornerRadius="0"
+                HasShadow="False"
+                TranslationX="10"
+                TranslationY="10"
+                Padding="0" />
+
+                <!-- Card -->
+                <Frame
+                BackgroundColor="#fdfdfd"
+                CornerRadius="0"
+                HasShadow="False"
+                BorderColor="Black"
+                Padding="24">
+
+                    <VerticalStackLayout Spacing="24">
+
+                        <!-- Title -->
+                        <Label
+                        Text="PRESS THE BUTTON."
+                        FontSize="30"
+                        FontAttributes="Bold"
+                        TextColor="Black"
+                        HorizontalTextAlignment="Start"
+                        FontFamily="Arial Black"
+                        x:Name="TxbPassword" />
+
+                        <!-- Length input block -->
+                        <VerticalStackLayout Spacing="6">
+                            <Label
+                            Text="LENGTH_INPUT"
+                            FontSize="12"
+                            TextColor="Black"
+                            FontFamily="Courier New" />
+
+                            <Border
+                            Stroke="Black"
+                            StrokeThickness="2"
+                            BackgroundColor="#fffbeb"
+                            Padding="8,4"
+                            HorizontalOptions="Fill">
+
+                                <Entry
+                                x:Name="TxtLenght"
+                                Text="Empty"
+                                FontSize="16"
+                                TextColor="Black"
+                                FontFamily="Courier New"
+                                Unfocused="TxtLenght_Unfocused"
+                                Placeholder="Type length here" />
+                            </Border>
+                        </VerticalStackLayout>
+
+                        <!-- Brutalist GENERATE button -->
+                        <Grid>
+                            <Frame
+                            BackgroundColor="Black"
+                            CornerRadius="0"
+                            HasShadow="False"
+                            TranslationX="6"
+                            TranslationY="6"
+                            Padding="0" />
+
+                            <Button
+                            x:Name="GeneratePasswordButton"
+                            Text="GENERATE PASSWORD >"
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            BackgroundColor="#f97316"
+                            TextColor="Black"
+                            CornerRadius="0"
+                            BorderColor="Black"
+                            BorderWidth="2"
+                            HeightRequest="56"
+                            HorizontalOptions="Fill"
+                            Clicked="GeneratePasswordButton_Clicked" />
+                        </Grid>
+
+                        <!-- Status label -->
+                        <Label
+                        Text="STATUS: IDLE"
+                        FontSize="14"
+                        FontAttributes="Bold"
+                        TextColor="Black"
+                        HorizontalOptions="Start"
+                        FontFamily="Courier New"
+                        x:Name="TxbClickedTimes" />
+
+                        <!-- Brutalist COPY button -->
+                        <Grid>
+                            <Frame
+                            BackgroundColor="Black"
+                            CornerRadius="0"
+                            HasShadow="False"
+                            TranslationX="6"
+                            TranslationY="6"
+                            Padding="0" />
+
+                            <Button
+                            x:Name="BtnCopyPassword"
+                            Text="COPY PASSWORD"
+                            FontSize="16"
+                            FontAttributes="Bold"
+                            BackgroundColor="#22c55e"
+                            TextColor="Black"
+                            CornerRadius="0"
+                            BorderColor="Black"
+                            BorderWidth="2"
+                            HeightRequest="52"
+                            HorizontalOptions="Fill"
+                            Clicked="BtnCopyPassword_Clicked" />
+                        </Grid>
+
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

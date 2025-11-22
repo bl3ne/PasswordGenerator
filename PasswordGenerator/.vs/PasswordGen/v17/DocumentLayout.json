@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bl3ne\\source\\repos\\PasswordGen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB569D6-2D98-4438-89F4-0F1FDAC44981}|PasswordGen\\PasswordGen.csproj|c:\\users\\bl3ne\\source\\repos\\passwordgen\\passwordgen\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DB569D6-2D98-4438-89F4-0F1FDAC44981}|PasswordGen\\PasswordGen.csproj|solutionrelative:passwordgen\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB569D6-2D98-4438-89F4-0F1FDAC44981}|PasswordGen\\PasswordGen.csproj|c:\\users\\bl3ne\\source\\repos\\passwordgen\\passwordgen\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6DB569D6-2D98-4438-89F4-0F1FDAC44981}|PasswordGen\\PasswordGen.csproj|solutionrelative:passwordgen\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bl3ne\\source\\repos\\PasswordGen\\PasswordGen\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "PasswordGen\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\bl3ne\\source\\repos\\PasswordGen\\PasswordGen\\MainPage.xaml.cs",
+              "RelativeToolTip": "PasswordGen\\MainPage.xaml.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:07:34.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\bl3ne\\source\\repos\\PasswordGen\\PasswordGen\\MainPage.xaml",
+              "RelativeDocumentMoniker": "PasswordGen\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\bl3ne\\source\\repos\\PasswordGen\\PasswordGen\\MainPage.xaml",
+              "RelativeToolTip": "PasswordGen\\MainPage.xaml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAiwJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-21T17:04:32.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
